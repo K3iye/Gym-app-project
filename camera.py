@@ -14,7 +14,8 @@ while True:
     # Operations on the frame here
     #gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     # DISPLAYS the resulting frame
-    cv.imshow('frame', frame)
+    true_frame = cv.flip(frame, 1)
+    cv.imshow('frame', true_frame)
     if cv.waitKey(1) == ord('q'):
         break
     
