@@ -1,9 +1,11 @@
-import numpy as np
 import cv2 as cv
+
 camera = cv.VideoCapture(0)
+
 if not camera.isOpened():
     print("Cannot open camera")
     exit()
+
 while True:
     # Frame by frame capture
     ret, frame = camera.read()
