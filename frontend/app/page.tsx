@@ -39,7 +39,7 @@ export default function Home() {
         autoPlay
         playsInline
         muted
-        className="w-full max-w-2xl rounded-xl"
+        className="w-full max-w-2xl rounded-xl, -scale-x-100"
       />
     </main>
   );
