@@ -27,9 +27,9 @@ Python, FastAPI, NumPy, and PyTorch.
 ## Camera
 
 - [x] 8. Get user's camera working
-- [ ] 9. Add camera start/stop button
-- [ ] 10. Add camera permission handling
-- [ ] 11. Mirror camera display correctly
+- [x] 9. Add camera start/stop button
+- [x] 10. Add camera permission handling
+- [x] 11. Mirror camera display correctly
 - [ ] 12. Add camera loading/error states
 
 ## Pose Detection
